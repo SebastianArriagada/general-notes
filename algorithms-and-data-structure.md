@@ -138,11 +138,14 @@ vi.Know the best and worst shapes for BST
 
 ## Priority Queue
 
-i.General explanation of the data structure.
+**General explanation of the data structure:**
+Priority Queue is an abstract data type, which is similar to a queue, however, in the priority queue, every element has some priority. Every item has a priority associated with it. An element with high priority is dequeued before an element with low priority. If two elements have the same priority, they are served according to their order in the queue.
 
-ii.Operations for priority queue: insertion, deletion(with complexities)
+**Operations for priority queue: insertion, deletion(with complexities)**
+ * Insertion: When a new element is inserted in a priority queue, it moves to the empty slot from top to bottom and left to right. However, if the element is not in the correct place then it will be compared with the parent node. If the element is not in the correct order, the elements are swapped. The swapping process continues until all the elements are placed in the correct position.
+ * Deletion:  As you know that in a max heap, the maximum element is the root node. And it will remove the element which has maximum priority first. Thus, you remove the root node from the queue. This removal creates an empty slot, which will be further filled with new insertion. Then, it compares the newly inserted element with all the elements inside the queue to maintain the heap invariant.
 
-iii.Explain trick on how to delete the maximum element
+**Explain trick on how to delete the maximum element:** Assign priority according to value, then apply Delate according to descending order
 
 ## Hashing
 
