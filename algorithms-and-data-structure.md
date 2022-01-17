@@ -75,7 +75,9 @@ The best case occurs when the partition process always picks the middle element 
 **Explain partitioning in quick sort:** Target of partitions is, given an array and an element x of array as pivot, put x at its correct position in sorted array and put all smaller elements (smaller than x) before x, and put all greater elements (greater than x) after x. All this should be done in linear time.
 
 h.Quick Selecti.Idea of how it works (General Pattern). 
+
 ii.Complexity of the algorithm (worst case and best case). 
+
 iii.If it’s an in-place/requires additional data structure kind of algorithm.
 
 ## Stack
@@ -99,33 +101,71 @@ time complexity if O(1) for all operations
 
 ## Linked Lists
 
-**General explanation of the data structure:**
+**General explanation of the data structure:** A linked list is a linear data structure, in which the elements are not stored at contiguous memory locations. The elements in a linked list are linked using pointers.
+
 **Types of linked lists with their description:**
+ * Singly Linked List: A singly linked list is a unidirectional linked list. So, you can only traverse it in one direction
+ * Doubly Linked List: A doubly linked list is a bi-directional linked list. So, you can traverse it in both directions. Unlike singly linked lists, its nodes contain one extra pointer called the previous pointer.
+ * Circular Linked List: A circular Linked list is a unidirectional linked list. So, you can traverse it in only one direction. But this type of linked list has its last node pointing to the head node
+ * Circular Doubly Linked List: A circular doubly linked list is a mixture of a doubly linked list and a circular linked list. Like the doubly linked list, it has an extra pointer called the previous pointer, and similar to the circular linked list, its last node points at the head node. This type of linked list is the bi-directional list. So, you can traverse it in both directions.
+
 **Operations used on linked lists: Search, Insertion, Delete (have to mention how they work/their concept and their complexities):**
+ * Insertion at the beginning: Since there is no need to find the end of the list. If the list is empty, we make the new node as the head of the list. Otherwise, we we have to connect the new node to the current head of the list and make the new node, the head of the list.
+ * Insertion at end: We will traverse the list until we find the last node. Then we insert the new node to the end of the list. Note that we have to consider special cases such as list being empty.
+In case of a list being empty, we will return the updated head of the linked list because in this case, the inserted node is the first as well as the last node of the linked list.
+ * Insertion after a given node: We are given the reference to a node, and the new node is inserted after the given node. The previous node is linked to the given node, and the given node is linked to the next node.
+ * Deletion: Find the previous node of the node to be deleted. Change the next pointer of the previous node. Free the memory of the deleted node.
+ * Search: To search any value in the linked list, we can traverse the linked list and compares the value present in the node.
+
 **Implementation of the stack handling the operations and empty case:**
+
 **Double Linked lists with sentinel: General idea -> with empty -> Search -> Insert -> Delete:**
+
 	
 ## Binary Search Trees
-	i.General explanation of the data structure.
-	ii.Pointers used with it
-	iii.Its property
-	iv.Traversals: General idea of how each traversal works with BST (no need for mentioning example if concept of each is properly explained)
-	v.Operations for BST: Search, Min, Max, Previous, Next, Insert, Delete (have to mention how they work/their concept and their complexities)
-	vi.Know the best and worst shapes for BST
+
+i.General explanation of the data structure.
+
+ii.Pointers used with it
+
+iii.Its property
+
+iv.Traversals: General idea of how each traversal works with BST (no need for mentioning example if concept of each is properly explained)
+
+v.Operations for BST: Search, Min, Max, Previous, Next, Insert, Delete (have to mention how they work/their concept and their complexities)
+
+vi.Know the best and worst shapes for BST
+
 ## Priority Queue
-	i.General explanation of the data structure.
-	ii.Operations for priority queue: insertion, deletion(with complexities)
-	iii.Explain trick on how to delete the maximum element
+
+i.General explanation of the data structure.
+
+ii.Operations for priority queue: insertion, deletion(with complexities)
+
+iii.Explain trick on how to delete the maximum element
+
 ## Hashing
-	i.General explanation
-	ii.Chaining
-		1.General explanation
-		2.Operations used with it and their complexities
-		3.Division Method
-		4.Multiplication Method
-	iii.Opening Addressing:
-		1.General explanation
-		2.Operations: Insert, Search, Delete.
-	iv.Linear Hashing:  General Explanation
-	v.Quadratic Hashing:  General Explanation
-	vi.Double Hashing:  General Explanation
+
+i.General 
+
+ii.Chaining
+
+	1.General explanation
+	
+	2.Operations used with it and their complexities
+	
+	3.Division Method
+	
+	4.Multiplication Method
+	
+iii.Opening Addressing:
+
+	1.General explanation
+	
+	2.Operations: Insert, Search, Delete.
+	
+iv.Linear Hashing:  General Explanation
+
+v.Quadratic Hashing:  General Explanation
+
+vi.Double Hashing:  General Explanation
