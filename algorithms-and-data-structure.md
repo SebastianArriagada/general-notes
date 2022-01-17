@@ -63,21 +63,40 @@ In computer science, a sorting algorithm is an algorithm that puts elements of a
 **Why is heap sort an asymptotically sorting algorithm?** This mean that the algorithm require the same time for the worst and better case
 	
 ## Quick Sort
-	i.Idea of how it works (General Pattern). 
-	ii.Complexity of the algorithm (worst case and best case). 
-	iii.If it’s an in-place/requires additional data structure kind of algorithm.
-	iv.Explain partitioning in quick sort.
-	h.Quick Selecti.Idea of how it works (General Pattern). 
-	ii.Complexity of the algorithm (worst case and best case). 
-	iii.If it’s an in-place/requires additional data structure kind of algorithm.
+**Idea of how it works:** Like Merge Sort, QuickSort is a Divide and Conquer algorithm. An array is divided into subarrays by selecting a pivot element (element selected from the array).
+While dividing the array, the pivot element should be positioned in such a way that elements less than pivot are kept on the left side and elements greater than pivot are on the right side of the pivot.
+The left and right subarrays are also divided using the same approach. This process continues until each subarray contains a single element.
+
+**Complexity (worst case and best case):** The worst case occurs when the partition process always picks greatest or smallest element as pivot.  O(n^2)
+The best case occurs when the partition process always picks the middle element as pivot. Following is recurrence for best case.  O(nLogn).
+
+**Additional data, in-place, kind of algorithm:**
+
+**Explain partitioning in quick sort:** Target of partitions is, given an array and an element x of array as pivot, put x at its correct position in sorted array and put all smaller elements (smaller than x) before x, and put all greater elements (greater than x) after x. All this should be done in linear time.
+
+h.Quick Selecti.Idea of how it works (General Pattern). 
+ii.Complexity of the algorithm (worst case and best case). 
+iii.If it’s an in-place/requires additional data structure kind of algorithm.
+
 ## Stack
-	i.Generl explanation of the data structure.
-	ii.Operations used on stack: Push, Pop, Empty(have to mention how they work/their concept)
-	iii.Implementation of the stack handling the operations and empty case
+
+**General explanation of the data structure:** A stack is a linear data structure that follows the principle of Last In First Out (LIFO). This means the last element inserted inside the stack is removed first.
+
+**Operations used on stack: Push, Pop, Empty(have to mention how they work/their concept):** We can check if the stack is empty or not by using "Empty?" operation. Push: Adds an item in the stack. If the stack is full, then it is said to be an Overflow condition.
+op: Removes an item from the stack. The items are popped in the reversed order in which they are pushed. If the stack is empty, then it is said to be an Underflow condition
+time complexity if O(1) for all operations
+
+**Implementation of the stack handling the operations and empty case:**
+
 ## Queue
-	i.General explanation of the data structure.
-	ii.Operations used on queue: Enqueue, Dequeue(have to mention how they work/their concept)
-	iii.Implementation of the stack handling the operations and empty case
+
+**General explanation of the data structure:** A Queue is a linear structure which follows a particular order in which the operations are performed. The order is First In First Out (FIFO). A good example of a queue is any queue of consumers for a resource where the consumer that came first is served first. The difference between stacks and queues is in removing. In a stack we remove the item the most recently added; in a queue, we remove the item the least recently added.
+
+**Operations used on queue: Enqueue, Dequeue(have to mention how they work/their concept):** Enqueue is the operation of adding an element to the structure, which is added at the end of the structure (Rear). Dequeue is the operation of removing the first element, which is located in the Front. Time complexity if O(1) for all operations
+
+**Implementation of the stack handling the operations and empty case:**
+
+
 ## Linked Lists
 	i.General explanation of the data structure.
 	ii.Types of linked lists with their description
