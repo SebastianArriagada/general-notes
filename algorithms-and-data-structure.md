@@ -98,11 +98,13 @@ time complexity if O(1) for all operations
 
 
 ## Linked Lists
-	i.General explanation of the data structure.
-	ii.Types of linked lists with their description
-	iii.Operations used on linked lists: Search, Insertion, Delete (have to mention how they work/their concept and their complexities)
-	iv.Implementation of the stack handling the operations and empty case
-	v.Double Linked lists with sentinel: General idea -> with empty -> Search -> Insert -> Delete
+
+**General explanation of the data structure:**
+**Types of linked lists with their description:**
+**Operations used on linked lists: Search, Insertion, Delete (have to mention how they work/their concept and their complexities):**
+**Implementation of the stack handling the operations and empty case:**
+**Double Linked lists with sentinel: General idea -> with empty -> Search -> Insert -> Delete:**
+	
 ## Binary Search Trees
 	i.General explanation of the data structure.
 	ii.Pointers used with it
