@@ -119,22 +119,57 @@ In case of a list being empty, we will return the updated head of the linked lis
 
 **Implementation of the stack handling the operations and empty case:**
 
-**Double Linked lists with sentinel: General idea -> with empty -> Search -> Insert -> Delete:**
+**Double Linked lists with sentinel: General idea -> with empty -> Search -> Insert -> Delete:**: Sentinel nodes do not store any data in them. They are usually placed at the head & tail of a linked list. 
+1. They reduce complexity of the algorithm.
+2. They increase operational speed.
+3. They increase robustness of the data structure which use them.
 
 	
 ## Binary Search Trees
 
-i.General explanation of the data structure.
+**General explanation of the data structure:** Data structure where the date is organized in a binary search tree using pointers.
 
-ii.Pointers used with it
+**Pointers used with it:** A binary tree is made of nodes, where each node contains a "left" pointer, a "right" pointer, and a data element. The "root" pointer points to the topmost node in the tree. The left and right pointers recursively point to smaller "subtrees" on either side. A null pointer represents a binary tree with no elements -- the empty tree. The formal recursive definition is: a binary tree is either empty (represented by a null pointer), or is made of a single node, where the left and right pointers (recursive definition ahead) each point to a binary tree.
 
-iii.Its property
+**Its property:** The left subtree of a node contains only nodes with keys lesser than the node’s key.
+The right subtree of a node contains only nodes with keys greater than the node’s key.
+The left and right subtree each must also be a binary search tree.
 
-iv.Traversals: General idea of how each traversal works with BST (no need for mentioning example if concept of each is properly explained)
+**Traversals: General idea of how each traversal works with BST:**
+ * In this traversal method, the left subtree is visited first, then the root and later the right sub-tree. We should always remember that every node may represent a subtree itself.
 
-v.Operations for BST: Search, Min, Max, Previous, Next, Insert, Delete (have to mention how they work/their concept and their complexities)
+ * In this traversal method, the root node is visited first, then the left subtree and finally the right subtree.
 
-vi.Know the best and worst shapes for BST
+ * In this traversal method, the root node is visited last, hence the name. First we traverse the left subtree, then the right subtree and finally the root node.
+
+
+**Operations for BST: Search, Min, Max, Previous, Next, Insert, Delete (have to mention how they work/their concept and their complexities):**
+
+* Search: The algorithm depends on the property of BST that if each left subtree has values below root and each right subtree has values above the root.
+If the value is below the root, we can say for sure that the value is not in the right subtree; we need to only search in the left subtree and if the value is above the root, we can say for sure that the value is not in the left subtree; we need to only search in the right subtree.
+O(n)
+
+* Insert: Inserting a value in the correct position is similar to searching because we try to maintain the rule that the left subtree is lesser than root and the right subtree is larger than root.
+We keep going to either right subtree or left subtree depending on the value and when we reach a point left or right subtree is null, we put the new node there. O(n)
+
+ * Delete: There are three cases for deleting a node from a binary search tree. 
+   * In the first case, the node to be deleted is the leaf node. In such a case, simply delete the node from the tree.
+   * In the second case, the node to be deleted lies has a single child node. In such a case follow the steps below:
+     * Replace that node with its child node:
+     * Remove the child node from its original position.
+
+   * In the third case, the node to be deleted has two children. In such a case follow the steps below:
+     * Get the inorder successor of that node.
+     * Replace the node with the inorder successor.
+     * Remove the inorder successor from its original position.   O(n)
+
+* Min: This is quite simple. Just traverse the node from root to left recursively until left is NULL. The node whose left is NULL is the node with minimum value. 
+O(n) Worst case happens for left skewed trees.
+
+* Max: Similarly we can get the maximum value by recursively traversing the right node of a binary search tree.
+couldnt find next and previous
+
+**Know the best and worst shapes for BST*:*
 
 ## Priority Queue
 
@@ -142,33 +177,56 @@ vi.Know the best and worst shapes for BST
 Priority Queue is an abstract data type, which is similar to a queue, however, in the priority queue, every element has some priority. Every item has a priority associated with it. An element with high priority is dequeued before an element with low priority. If two elements have the same priority, they are served according to their order in the queue.
 
 **Operations for priority queue: insertion, deletion(with complexities)**
- * Insertion: When a new element is inserted in a priority queue, it moves to the empty slot from top to bottom and left to right. However, if the element is not in the correct place then it will be compared with the parent node. If the element is not in the correct order, the elements are swapped. The swapping process continues until all the elements are placed in the correct position.
- * Deletion:  As you know that in a max heap, the maximum element is the root node. And it will remove the element which has maximum priority first. Thus, you remove the root node from the queue. This removal creates an empty slot, which will be further filled with new insertion. Then, it compares the newly inserted element with all the elements inside the queue to maintain the heap invariant.
+ * Insertion: 	O(log n). When a new element is inserted in a priority queue, it moves to the empty slot from top to bottom and left to right. However, if the element is not in the correct place then it will be compared with the parent node. If the element is not in the correct order, the elements are swapped. The swapping process continues until all the elements are placed in the correct position.
+ * Deletion: 	O(log n). As you know that in a max heap, the maximum element is the root node. And it will remove the element which has maximum priority first. Thus, you remove the root node from the queue. This removal creates an empty slot, which will be further filled with new insertion. Then, it compares the newly inserted element with all the elements inside the queue to maintain the heap invariant.
 
 **Explain trick on how to delete the maximum element:** Assign priority according to value, then apply Delate according to descending order
 
 ## Hashing
 
-i.General 
+**General:** Hashing is a technique or process of mapping keys, values into the hash table by using a hash function. It is done for faster access to elements. The efficiency of mapping depends on the efficiency of the hash function used. 
 
-ii.Chaining
+**Chaining**
 
-	1.General explanation
-	
-	2.Operations used with it and their complexities
-	
-	3.Division Method
-	
-	4.Multiplication Method
-	
-iii.Opening Addressing:
+ 1. General explanation
+Chaining is a technique used for avoiding collisions in hash tables.
+A collision occurs when two keys are hashed to the same index in a hash table. Collisions are a problem because every slot in a hash table is supposed to store a single element.
 
-	1.General explanation
-	
-	2.Operations: Insert, Search, Delete.
-	
-iv.Linear Hashing:  General Explanation
+ 2. Operations used with it and their complexities
+In the chaining approach, the hash table is an array of linked lists i.e., each index has its own linked list. All key-value pairs mapping to the same index will be stored in the linked list of that index. insertion in a hash table always occurs in O(1)
 
-v.Quadratic Hashing:  General Explanation
 
-vi.Double Hashing:  General Explanation
+|ACTIVITY |	BEST CASE  COMPLEXITY |	AVERAGE CASE COMPLEXITY |	WORST CASE COMPLEXITY |
+| --- | --- | --- | --- |
+|Searching |	O(1) |	O(1) |	O(n) |
+|Insertion |	O(1) |	O(1) |	O(n) |
+|Deletion |	O(1) |	O(1) |	O(n) |
+|Space Complexity |	O(m+n) |	O(m+n) |	O(m+n) |
+
+ 3. Division Method
+The most common method is the division method, in which modular arithmetic is used in computing the slot. h(k) = M mod N
+
+ 4. Multiplication Method
+Multiplicative hashing sets the hash index from the fractional part of multiplying k by a large real number. It's faster if this computation is done using fixed point rather than floating point, which is accomplished by computing (ka/2^q) mod m for appropriately chosen integer values of a, m, and q. So q determines the number of bits of precision in the fractional part of a.
+	
+**Opening Addressing:**
+
+1. General explanation
+In case of obtain an already used index of the array, we can search the next empty location in the array by looking into the next cell until we find an empty cell. This technique is called linear probing.
+
+2. Operations: Insert, Search, Delete.
+
+|ACTIVITY |	BEST CASE  COMPLEXITY |	AVERAGE CASE COMPLEXITY |	WORST CASE COMPLEXITY |
+| --- | --- | --- | --- |
+|Searching |	O(1) |	O(1) |	O(n) |
+|Insertion |	O(1) |	O(1) |	O(n) |
+|Deletion |	O(1) |	O(1) |	O(n) |
+|Space Complexity |	O(n) |	O(n) |	O(n) |
+
+**Linear Hashing:** Suppose the hash function is denoted by h(n). Then, for a value k, if the hash generated h(k) is occupied, linear probing suggests to look at the very next location i.e. h(k)+1. When this is occupied as well, we look at h(k)+2, h(k)+3, h(k)+4 and so on... 
+
+**Quadratic Hashing:** Very similar to linear probing discussed above, this method of collision resolution searches for the next vacant space by taking steps in the order of i2 where i = 1, 2, 3...
+So, the table is traversed in the order h(k)+1, h(k)+4, h(k)+9, h(k)+16 and so on.
+
+**Double Hashing:** In this method, we use two hashing functions- h(n) for general hashing and and a new function h'(n) used specifically for resolving conflicts.
+So, vacancies are searched in the order as h(k), h(k) + h'(k), h(k) + 2h'(k) and so on...
