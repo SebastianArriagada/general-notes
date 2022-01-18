@@ -25,12 +25,20 @@ In computer science, a sorting algorithm is an algorithm that puts elements of a
 **Complexity (worst case):** O(n2) as there are two nested loops.
 
 **Additional data, in-place, kind of algorithm:** O(1), in place (it does not require extra space), unestable
-	
+
+## Counting sort
+
+**Idea of how it works:**: Counting sort is a sorting technique based on keys between a specific range. It works by counting the number of objects having distinct key values (kind of hashing). Then doing some arithmetic to calculate the position of each object in the output sequence.
+
+**Time Complexity:** O(n+k) where n is the number of elements in input array and k is the range of input. 
+
+**Auxiliary Space:** O(n+k)
+
 ## Merge Sort
 
 **Idea of how it works:** It divides the input array into two halves, calls itself for the two halves, till the size of each halve becomes 1. The merge() function is used for merging two halves. The merge(arr, l, m, r) is a key process that assumes that arr[l..m] and arr[m+1..r] are sorted and merges the two sorted sub-arrays into one.
 
-**Complexity (worst case):** θ(nLogn) in all 3 cases (worst, average and best).
+**Complexity (worst case):** θ(nLogn) in all 3 cases (worst, average and best). asymptotically
 
 **Additional data, in-place, kind of algorithm:**  O(n), no in place, Divide and Conquer (It is the best Sorting technique used for sorting Linked Lists)
 
@@ -46,11 +54,11 @@ In computer science, a sorting algorithm is an algorithm that puts elements of a
 2. At this point, the largest item is stored at the root of the heap. Replace it with the last item of the heap followed by reducing the size of heap by 1. Finally, heapify the root of the tree. 
 3. Repeat step 2 while the size of the heap is greater than 1.
 
-**Complexity (worst case):** O(nLog n)
+**Complexity (worst case):** O(nLog n) asymptotically
 
 **Additional data, in-place, kind of algorithm:** no additional space needed, sort in-place, Comparison-base with Binary Heap data structure, no stable
 
-**How is max selection sort related to heap sort. Brief explanation of how it works:** It is similar to selection sort where we first find the minimum element and place the minimum element at the beginning. We repeat the same process for the remaining elements.
+**How is max selection sort related to heap sort. Brief explanation of how it works:** It is similar to max selection sort where we find the bigger element and place it at the final of the unsorted list. We repeat the same process for the remaining elements.
 
 **Preprocessing related in heap sort:** Is constructed a Binary Tree and apply the heapify 
 
@@ -58,7 +66,7 @@ In computer science, a sorting algorithm is an algorithm that puts elements of a
 	
 **Tree property related to building a heap:** A Binary Heap is a Complete Binary Tree where items are stored in a special order such that the value in a parent node is greater(or smaller) than the values in its two children nod
 
-**What is heapify? What is its complexity?** Heapify is the process of converting a binary tree into a Heap data structure. A binary tree being a tree data structure where each node has at most two child nodes. A Heap must be a complete binary tree, that is each level of the tree is completely filled, except possibly the bottom level. At this level, it is filled from left to right. Complexity O(nLog n)
+**What is heapify? What is its complexity?** Heapify is the process of converting a binary tree into a Heap data structure. A binary tree being a tree data structure where each node has at most two child nodes. A Heap must be a complete binary tree, that is each level of the tree is completely filled, except possibly the bottom level. At this level, it is filled from left to right. Complexity O(Log n)
 
 **Why is heap sort an asymptotically sorting algorithm?** This mean that the algorithm require the same time for the worst and better case
 	
@@ -70,22 +78,29 @@ The left and right subarrays are also divided using the same approach. This proc
 **Complexity (worst case and best case):** The worst case occurs when the partition process always picks greatest or smallest element as pivot.  O(n^2)
 The best case occurs when the partition process always picks the middle element as pivot. Following is recurrence for best case.  O(nLogn).
 
-**Additional data, in-place, kind of algorithm:**
+**Additional data, in-place, kind of algorithm:** Sort in place, not stable
 
 **Explain partitioning in quick sort:** Target of partitions is, given an array and an element x of array as pivot, put x at its correct position in sorted array and put all smaller elements (smaller than x) before x, and put all greater elements (greater than x) after x. All this should be done in linear time.
 
-h.Quick Selecti.Idea of how it works (General Pattern). 
+## Quick Select
 
-ii.Complexity of the algorithm (worst case and best case). 
+**Idea of how it works (General Pattern):** Quickselect is a selection algorithm to find the k-th smallest element in an unordered list. It is related to the quick sort sorting algorithm.
 
-iii.If it’s an in-place/requires additional data structure kind of algorithm.
+The algorithm is similar to QuickSort. The difference is, instead of recurring for both sides (after finding pivot), it recurs only for the part that contains the k-th smallest element. The logic is simple, if index of partitioned element is more than k, then we recur for left part. If index is same as k, we have found the k-th smallest element and we return. If index is less than k, then we recur for right part. This reduces the expected complexity from O(n log n) to O(n), with a worst case of O(n^2).
+
+**Complexity of the algorithm (worst case and best case):** worst case of O(n^2).
+
+**If it’s an in-place/requires additional data structure kind of algorithm:** Sort in place, not stable. Divide and Conquest
 
 ## Stack
 
 **General explanation of the data structure:** A stack is a linear data structure that follows the principle of Last In First Out (LIFO). This means the last element inserted inside the stack is removed first.
 
-**Operations used on stack: Push, Pop, Empty(have to mention how they work/their concept):** We can check if the stack is empty or not by using "Empty?" operation. Push: Adds an item in the stack. If the stack is full, then it is said to be an Overflow condition.
-op: Removes an item from the stack. The items are popped in the reversed order in which they are pushed. If the stack is empty, then it is said to be an Underflow condition
+**Operations used on stack: Push, Pop, Empty(have to mention how they work/their concept):** 
+* We can check if the stack is empty or not by using "Empty?" operation. 
+* Push: Adds an item in the stack. If the stack is full, then it is said to be an Overflow condition.
+* pop: Removes an item from the stack. The items are popped in the reversed order in which they are pushed. If the stack is empty, then it is said to be an Underflow condition.
+
 time complexity if O(1) for all operations
 
 **Implementation of the stack handling the operations and empty case:**
@@ -110,12 +125,12 @@ time complexity if O(1) for all operations
  * Circular Doubly Linked List: A circular doubly linked list is a mixture of a doubly linked list and a circular linked list. Like the doubly linked list, it has an extra pointer called the previous pointer, and similar to the circular linked list, its last node points at the head node. This type of linked list is the bi-directional list. So, you can traverse it in both directions.
 
 **Operations used on linked lists: Search, Insertion, Delete (have to mention how they work/their concept and their complexities):**
- * Insertion at the beginning: Since there is no need to find the end of the list. If the list is empty, we make the new node as the head of the list. Otherwise, we we have to connect the new node to the current head of the list and make the new node, the head of the list.
- * Insertion at end: We will traverse the list until we find the last node. Then we insert the new node to the end of the list. Note that we have to consider special cases such as list being empty.
+ * Insertion at the beginning: O(1) Since there is no need to find the end of the list. If the list is empty, we make the new node as the head of the list. Otherwise, we we have to connect the new node to the current head of the list and make the new node, the head of the list.
+ * Insertion at end: O(1) We will traverse the list until we find the last node. Then we insert the new node to the end of the list. Note that we have to consider special cases such as list being empty.
 In case of a list being empty, we will return the updated head of the linked list because in this case, the inserted node is the first as well as the last node of the linked list.
- * Insertion after a given node: We are given the reference to a node, and the new node is inserted after the given node. The previous node is linked to the given node, and the given node is linked to the next node.
- * Deletion: Find the previous node of the node to be deleted. Change the next pointer of the previous node. Free the memory of the deleted node.
- * Search: To search any value in the linked list, we can traverse the linked list and compares the value present in the node.
+ * Insertion after a given node: O(1) We are given the reference to a node, and the new node is inserted after the given node. The previous node is linked to the given node, and the given node is linked to the next node.
+ * Deletion: O(1) Find the previous node of the node to be deleted. Change the next pointer of the previous node. Free the memory of the deleted node.
+ * Search: O(n) To search any value in the linked list, we can traverse the linked list and compares the value present in the node.
 
 **Implementation of the stack handling the operations and empty case:**
 
