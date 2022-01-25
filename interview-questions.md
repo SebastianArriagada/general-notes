@@ -41,19 +41,25 @@ I was part of the student center at covid times in my university days. I formed 
  2. Although, sometimes I couldn't change the thinking of my collages after searching for the background that supports my proposal. In these cases, after draining all my argumentation, I respected the team decision and I worked without problem in the chosen form 
 
 ## 11. Tell Me About a Time You Made a Mistake.
-
+In one project I needed a GPU for the real-time processing of a model. My mistake was to start to develop the model without confirmation from the customer of the hardware disponibility because they said at the beginning that they can put what we would need. But almost at the final of my development, they said me that it was not possible, and they only have a CPU. So, I had to change the type of model and change the technologies used. In the beginning, I tried to manage this by myself, but I learned the power of communication, I told the problem to my boss and colleagues. With my boss, we talked with the customer and we update the new dates and my colleagues gave me advice for the new development. Finally, the project was delivered on the stipulated dates and with a good customer feedback
 
 ## 12. Tell Me About a Challenge or Conflict You’ve Faced at Work, and How You Dealt With It.
+I had a team leader who constantly attacked the proposals in my former work. In the beginning, it was a little awkward, but I learned to don't take it personally, and I found like a good idea because after this, always when I wanted to propose something, I prepared myself better to respond to any question, and it made me have a stronger aproach
 
 ## 13. What is your greatest strength?
+It's a combination between perseverance, optimism, and a love for being outside of my comfort zone. Until now, I reached long-term goals and things that looked so hard for someone from where I came, with parents only with high school, I studied in a public school, which is not the best in my country. But I achieved being one of the top 5 on my degree and won one of the fifteen scholarships for study in Hungary.  Where I was working for coming to Europe to study since I left the high school
 
 ## 14. What is your greatest weakness?
+I'm a little anxious, for example,  when I'm waiting for a test result. But for this reason, I tried to keep myself occupied. In this way, I avoid overthinking and move on with my other task. I also do sport and mind fullness meditation to relax. I like introspection, and when I find a lousy behavior, I try to fix it. 
 
 ## 15. Can You Explain Why You Changed Career Paths?
+One of my life goals is to improve the quality of life of the people or support something to the knowledge, and I think that computer science is a good and funny way to reach it
 
 ## 16. What Are You Looking for in a New Position?
+One site where I can improve myself, with challenges and an environment that allows growth. Especially in the computer science skills
 
 ## 17. How Would Your Boss and Coworkers Describe You?
+Someone motivated and engaged with their work. I want to think that they find me funny too. I try to make more bearable moments, with a good sense of humor and good treatment of people. I like to remember that I'm talking with persons with feelings and an inside world. In this way, I can be more empathic 
 
 ## 18. What Motivates You?
 
@@ -87,25 +93,48 @@ I was part of the student center at covid times in my university days. I formed 
 ## What is multiple inheritance? What are its advantages and disadvantages?
 
 ## What is the computer system?
+
 ## List out components of a computer system
+
 ## What is a microprocessor?
+
 ## Explain class variable
+
 ## What is SDLC?
+
 ## Explain the meaning of file.
+
 ## What is Integrated Development Environment?
+
 ## Explain the framework
+
 ## What is an Interface?
+
 ## Distinguish between constructor and method abstract class and interface
+
 ## What is an abstract class?
+
 ## Define Cin and Cout
+
 ## List the types of constructors
+
 ## List out different OOPS principles?
+
 ## What is artificial intelligence?  What is machine learning? What is deep learning?
+
 ## Explain the various type of access modifiers
+
 ## What is the difference between compiler and interpreter?
+
 ## Distinguish between constructor and method
+
 ## What do you mean by destructor?
+
 ## Explain primary memory
+
 ## What is s the primary difference between process and thread?
 
+
+
 (https://www.guru99.com/computer-science-interview-questions.html)
+
