@@ -62,22 +62,28 @@ One site where I can improve myself, with challenges and an environment that all
 Someone motivated and engaged with their work. I want to think that they find me funny too. I try to make more bearable moments, with a good sense of humor and good treatment of people. I like to remember that I'm talking with persons with feelings and an inside world. In this way, I can be more empathic 
 
 ## 18. What Motivates You?
+Try to give others the opportunities that I had. If it wasn't for the support of my family and friends, I don't know if I would have come this far, and I'm aware that this is not common. For what motivates me to get to do something that improves people's lives
 
 ## 19. Where Do You See Yourself in Five Years?
+Independent of where I'm or where I'm working, I look myself contributing to open-source projects to improve the quality of life of the people. 
 
 ## 20. How Do You Plan to Achieve Your Career Goals?
+I will prepare myself to take advantage of the opportunities that life gives. And I will knock on all doors that I can to search for the opportunity to learn more and demonstrate what I can do 
 
 ## 21. What’s Your Dream Job?
 
 ## 22. What Should I Know That’s Not on Your Resume?
+I trained athleticism for like 8 years, focused every day, where I learned the perseverance and the discipline 
 
 ## 23. What Makes You Unique?
 
 ## 24. Which is your most significant accomplishment?
+I think that be here, I never was good at English, and I really love my family, but I left my comfort zone, and I came here for at least three years. And of course, for won this scholarship I had to make a lot of efforts 
 
 ## 25. Why Should We Hire You? / What Can You Bring to the Company?
 
 ## 26. What Is Your Greatest Professional Achievement?
+Be able to apply a technology that I didn't know in a short time. It was a challenge of fast learning and stress management 
 
 # Technical questions 
 
