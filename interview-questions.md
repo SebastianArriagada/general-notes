@@ -24,6 +24,9 @@ I'm a little anxious, for example,  when I'm waiting for a test result. But for 
 ## 9. Tell Me About a Time You Demonstrated Leadership Skills.
 I was part of the student center at covid times in my university days. I formed a work team to manage student difficulties like the absence of internet connections, the necessity of a laptop for study, or problems with professors. I made a questionary for knowing the situation of all the mining faculty, estimating the necessary resources, and thus proposing a solution to the rector. We reached that our faculty gave scholarships to pay the internet of classmates with resources problem and that the university put to disposition computers to pass to some students during the pandemic.  I really liked the worked made 
 
+## 11. Tell Me About a Time You Made a Mistake.
+In one project I needed a GPU for the real-time processing of a model. My mistake was to start to develop the model without confirmation from the customer of the hardware disponibility because they said at the beginning that they can put what we would need. But almost at the final of my development, they said me that it was not possible, and they only have a CPU. So, I had to change the type of model and change the technologies used. In the beginning, I tried to manage this by myself, but I learned the power of communication, I told the problem to my boss and colleagues. With my boss, we talked with the customer and we update the new dates and my colleagues gave me advice for the new development. Finally, the project was delivered on the stipulated dates and with a good customer feedback
+
 ## 5. hen you’re balancing multiple projects, how do you keep yourself organized?
 1. If it's possible, I like to measure the projects and tasks with my team on what is important and what is urgent. In this way, I can start with the most important and urgent things, and going fulfilling the rest according on this rank. 
 2. In parallel, I like to put myself dates of fulfillment. Hopefully, less than final fulfill date, for what, in case of having any problem or delay, to be able to report it and take some measurements so as not to fail with the delivery of the product and not fail with the customer
@@ -34,6 +37,9 @@ I prefer an environment of fellowship, where if someone has more knowledge of so
 ## 3. How do you deal with pressure or stressful situations? / tell me one situation where...
  1. When I just moved here was a little stressful, I didn't speak too much English and less Hungarian. The first time I had to make a lot of bureaucratic. So I first collected all the things in a list, and I put all requirements. While I tried to make a support network, I knew some Chilean people who had some information and advice. Meanwhile, I started to speak as much English I could to train. Now, fortunately, I'm more used to Hungary and expressing myself 
  2. In one moment in the middle of a project, the customers said that they couldn't provide the hardware requirement of a GPU, and I had to apply a technology that I didn't know at this time, to allow real-time processing of AI models on CPU. At first, I tried to manage this by myself, and I was so stressed working all my day. But after I learned the power of communication, I explained the situation to my boss, and we set new dates together with the customer. Thanks to my workmates' advice, I found the necessary technologies, which saved me a lot of work. Finally, I could fulfill all project's goals and with a good customer feedback
+
+## 24. Which is your most significant accomplishment?
+I think that be here, I never was good at English, and I really love my family, but I left my comfort zone, and I came here for at least three years. And of course, for won this scholarship I had to make a lot of efforts 
 
 ## 4. Do you prefer working independently or on a team?
 Although working alone can be more agile, I like to work in a team, since much greater things can be done and you can learn from your colleagues
@@ -46,9 +52,6 @@ I'm not here just for money, but a good salary would give me the opportunity of 
 
 ## 8. Why Are You Leaving Your Current Job?
 Because I came to study a master in computer science. At the first, I had the opportunity of continuing working beside my studies, but I didn't want to take responsibilities without knowing if I could fulfill them and at this moment we had a gap of 6 hours, which made it harder. The first semester I spent a lot of time getting used to Hungary and making lines in governmental offices. But now I'm more confident and I'm ready to retake my work hours. 
-
-## 11. Tell Me About a Time You Made a Mistake.
-In one project I needed a GPU for the real-time processing of a model. My mistake was to start to develop the model without confirmation from the customer of the hardware disponibility because they said at the beginning that they can put what we would need. But almost at the final of my development, they said me that it was not possible, and they only have a CPU. So, I had to change the type of model and change the technologies used. In the beginning, I tried to manage this by myself, but I learned the power of communication, I told the problem to my boss and colleagues. With my boss, we talked with the customer and we update the new dates and my colleagues gave me advice for the new development. Finally, the project was delivered on the stipulated dates and with a good customer feedback
 
 ## 12. Tell Me About a Challenge or Conflict You’ve Faced at Work, and How You Dealt With It.
 I had a team leader who constantly attacked the proposals in my former work. In the beginning, it was a little awkward, but I learned to don't take it personally, and I found like a good idea because after this, always when I wanted to propose something, I prepared myself better to respond to any question, and it made me have a stronger aproach
@@ -73,9 +76,6 @@ I will prepare myself to take advantage of the opportunities that life gives. An
 
 ## 22. What Should I Know That’s Not on Your Resume?
 I trained athleticism for like 8 years, focused every day, where I learned the perseverance and the discipline 
-
-## 24. Which is your most significant accomplishment?
-I think that be here, I never was good at English, and I really love my family, but I left my comfort zone, and I came here for at least three years. And of course, for won this scholarship I had to make a lot of efforts 
 
 ## 26. What Is Your Greatest Professional Achievement?
 Be able to apply a technology that I didn't know in a short time. It was a challenge of fast learning and stress management 
@@ -163,7 +163,7 @@ Cin and Cout are objects used for input and output files, respectively.
 The four principles of object-oriented programming are encapsulation, abstraction, inheritance, and polymorphism.
 1. Encapsulation is achieved when each object keeps its state private, inside a class. Other objects don’t have direct access to this state. Instead, they can only call a list of public functions — called methods.
 2. Applying abstraction means that each object should only expose a high-level mechanism for using it.
-3.It means that you create a (child) class by deriving from another (parent) class. This way, we form a hierarchy.
+3. It means that you create a (child) class by deriving from another (parent) class. This way, we form a hierarchy.
 4. Polymorphism, This typically happens by defining a (parent) interface to be reused. It outlines a bunch of common methods. Then, each child class implements its own version of these methods.
 
 ## Explain the various type of access modifiers
