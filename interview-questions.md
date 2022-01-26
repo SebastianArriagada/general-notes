@@ -70,20 +70,20 @@ Independent of where I'm or where I'm working, I look myself contributing to ope
 ## 20. How Do You Plan to Achieve Your Career Goals?
 I will prepare myself to take advantage of the opportunities that life gives. And I will knock on all doors that I can to search for the opportunity to learn more and demonstrate what I can do 
 
-## 21. What’s Your Dream Job?
-
 ## 22. What Should I Know That’s Not on Your Resume?
 I trained athleticism for like 8 years, focused every day, where I learned the perseverance and the discipline 
-
-## 23. What Makes You Unique?
 
 ## 24. Which is your most significant accomplishment?
 I think that be here, I never was good at English, and I really love my family, but I left my comfort zone, and I came here for at least three years. And of course, for won this scholarship I had to make a lot of efforts 
 
-## 25. Why Should We Hire You? / What Can You Bring to the Company?
-
 ## 26. What Is Your Greatest Professional Achievement?
 Be able to apply a technology that I didn't know in a short time. It was a challenge of fast learning and stress management 
+
+## 25. Why Should We Hire You? / What Can You Bring to the Company?
+
+## 21. What’s Your Dream Job?
+
+## 23. What Makes You Unique?
 
 # Technical questions 
 
@@ -103,48 +103,87 @@ a. C is a low-level language, mainly a procedural that supports structured progr
 b. C is preferred when the speed and performance is really crucial, and C++ when you need speed but also others features like the object-oriented paradigm 
 
 ## What is multiple inheritance? What are its advantages and disadvantages?
+1. Multiple inheritance is a feature of some object-oriented computer programming languages in which an object or class can inherit features from more than one parent object or parent class.
+2.1. Advantages:  simple, clear, and more conducive to reuse. It won't change the code in a big way because of a small change in the base class.
+2.2. Disadvantages: ambiguity, Diamond Of Death Tree, can bring problem when you use parent class pointer to point to the subclass object. Do you need to use dynamic_cast, which is also troublesome. This can fall in a performance loss
 
 ## What is the computer system?
+A computer system is a combination of memory, CPU, peripheral devices that are connected to it, and OS (Operating System).
 
 ## List out components of a computer system
+* CPU (Central Processing Unit) including control unit and arithmetic logic unit
+* Memory like primary and secondary
+* Input and output devices like keyboard mouse, printer scanner, etc.
 
 ## What is a microprocessor?
+A microprocessor is an integrated circuit having all the functionality of a central processing unit of a PC.
 
 ## Explain class variable
+In object-oriented programming with classes, a class variable is any variable declared with the static modifier of which a single copy exists, regardless of how many instances of the class exist
 
 ## What is SDLC?
+SDLC stands for Software Development Life Cycle is a process that produces quality software products in less time. The stages involve by SDLC are: 1) planning, 2) design, 4) construction, 5) testing, and 6) deployment.
 
 ## Explain the meaning of file.
+A file is a named location that stores information or data permanently. It is always stored in the storage device using a file name with primary and secondary name, which is separated by a “.”(DOT).
 
 ## What is Integrated Development Environment?
+An IDE is a GUI-based software program. It is designed to help programmers build applications with all the needed programs and libraries.
 
 ## Explain the framework
+The framework is a platform for making software applications. It provides the basis on which developers can build programs for a specific platform. For example, a framework may include predetermined classes as well as functions. It can be used to process inputs, manage hardware, and interact with system software.Ruby on Rails, Django, Angular, Laravel
 
 ## What is an Interface?
+The interface is similar to a class in Java, but it is a collection of abstract methods. A class can have more than one interface.
 
 ## Distinguish between constructor and method abstract class and interface
+The difference between class and interface is:
 
-## What is an abstract class?
+| Abstract class	| Interface |
+| --- | --- |
+| Abstract class does not support inheritance. |	The interface supports multiple inheritances. |
+| An abstract class would contain constructor.	| The interface does not contain a constructor. |
+| An abstract class is declared using the “Abstract” keyword.	| The interface is declared using the “interface” keyword. |
+| It can be used with all access modifiers.	| It can be used with only public access modifier. |
+
+## What is a class?
+A class is a blueprint for creating objects. A class contains methods and variables which are a class instance.
+
+## What is an abstract class? 
+A class having an abstract keyword is called an abstract class.
 
 ## Define Cin and Cout
+Cin and Cout are objects used for input and output files, respectively.
 
 ## List the types of constructors
+1) parameterized constructor and 2) default constructor.
 
 ## List out different OOPS principles?
-
-## What is artificial intelligence?  What is machine learning? What is deep learning?
+The four principles of object-oriented programming are encapsulation, abstraction, inheritance, and polymorphism.
+1.Encapsulation is achieved when each object keeps its state private, inside a class. Other objects don’t have direct access to this state. Instead, they can only call a list of public functions — called methods.
+2. Applying abstraction means that each object should only expose a high-level mechanism for using it.
+3.It means that you create a (child) class by deriving from another (parent) class. This way, we form a hierarchy.
+4. Polymorphism, This typically happens by defining a (parent) interface to be reused. It outlines a bunch of common methods. Then, each child class implements its own version of these methods.
 
 ## Explain the various type of access modifiers
+* Private: Visible to a particular class
+* Public: Visible to the world
+* Protected: Visible to specific package as well as subclass
+
+## What do you mean by destructor?
+Destructor is a class member function that deletes or destructs an object.
+
+## Explain primary memory
+Primary memory, RAM is the main memory of a computer which can be directly accessed by the Central Processing Unit (CPU). It stores temporary information until the process finishes its execution.
+
+## What is s the primary difference between process and thread?
+Process is called as a program which is in execution. Thread is a segment of a process, so; a process can have more than one threa
 
 ## What is the difference between compiler and interpreter?
 
 ## Distinguish between constructor and method
 
-## What do you mean by destructor?
-
-## Explain primary memory
-
-## What is s the primary difference between process and thread?
+## What is artificial intelligence?  What is machine learning? What is deep learning?
 
 
 
