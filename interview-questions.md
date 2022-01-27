@@ -80,12 +80,6 @@ I trained athleticism for like 8 years, focused every day, where I learned the p
 ## 22. What Is Your Greatest Professional Achievement?
 Be able to apply a technology that I didn't know in a short time. It was a challenge of fast learning and stress management 
 
-## 23. Why Should We Hire You? / What Can You Bring to the Company?
-
-## 24. What’s Your Dream Job?
-
-## 25. What Makes You Unique?
-
 ## Questions
 * how big would the team be?
 * what would be the main objetives of my role?
