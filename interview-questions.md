@@ -2,17 +2,17 @@
 
 ## 1. Could you tell me about yourself and describe your background in brief?
 
-I'm 26 years old. I'm from Chile. My former studies were in mining engineering because my country has an extensive mining industry. But I realized that my curiosity goes farther than just the mining field. However, I decided to continue my studies because I had a scholarship that didn't allow me to change of major. But, I took advantage of the focus on mathematics, statistics, and computer science ( in fact, I took the computer science minor). 
+I'm 26 years old. I'm from Chile. My former studies were in mining engineering because my country has an extensive mining industry. But I realized that is not my passion and that curiosity goes farther than just the mining field. However, I decided to continue my studies because I had a scholarship that didn't allow me to change of major. But, I took advantage of the focus on mathematics, statistics, and computer science ( in fact, I took the computer science minor). 
 
 However to this decision, during the five and half years of my studies (I didn't take too much time, it's the minimum duration of an engineering degree in my country). I always study in parallel by myself, at first physics and chemistry, from books, videos, and extra curses, until the moment when I tried to automatize the play of a video game using python and auto clicks. That was my love at the first challenge. After this, I focused all my energy on this field.
 
-Fur lucky, my cousin (and one of my best friends) is talented and passionate about computer science, and he was my guide for what I needed to learn. About the different fields of computer science, what is a programming language, what is the focus of each one, the different programming paradigms ( like object-oriented, functional, and imperative), the importance of control version systems, and of making a clean code, etc
+Fur lucky, my cousin (and one of my best friends) is talented and passionate about computer science, and he was my guide for what I needed to learn. About the different fields of computer science, the different programming languages, what is the focus of each one, the different programming paradigms ( like object-oriented, functional, and imperative), the importance of control version systems, and of making a clean code, etc
 
-Then, after practicing and studying a lot, I proposed my thesis to a company about applying image recognition and segmentation to geology. With this new method, we passed from hours of human work to just a couple of seconds and more consistent results. So, they contacted me, and I worked there for one year, working with image analysis, data analysis, management of databases, and similar things. 
+Then, after practicing and studying a lot, I proposed my thesis to a company about the use of image recognition and segmentation in geology. With my method, we passed from hours of human work describing rocks to just a couple of seconds and with more consistent results. So, they contacted me, and I worked there for one year, working with image and data analysis, management of databases, and similar things.  
 
 Until I decided to start formal studies with the master of computer science, with the AI specialization, where I asked for a preparation year because I want to make stronger my skills, I preferred to take a little more time but have solid background knowledge. 
 
-And now, I completed my first semester successfully, and I'm searching for a new challenge where I could be apport from my enthusiasm and effort
+And now, I completed my first semester successfully, and I'm searching for a new challenge where I could be apport from my knowledges and problem solving skills
 
 ## 2. What is your greatest strength?
 * The quick learner. I think that I'm used to it because I'm constantly studying different things. And I have demonstrated it. For example, when in a short time and under pressure, I had to learn and apply new technology to allow the faster processing of AI models on CPU.
@@ -32,23 +32,26 @@ In one project I needed a GPU for the real-time processing of a model. My mistak
 2. In parallel, I like to put myself dates of fulfillment. Hopefully, less than final fulfill date, for what, in case of having any problem or delay, to be able to report it and take some measurements so as not to fail with the delivery of the product and not fail with the customer
 
 ## 7. Tell Me About a Challenge or Conflict You’ve Faced at Work, and How You Dealt With It.
-I had a team leader who constantly attacked the proposals in my former work. In the beginning, it was a little awkward, but I learned to don't take it personally, and I found like a good idea because after this, always when I wanted to propose something, I prepared myself better to respond to any question, and it made me have a stronger aproach
+I had a team leader who constantly attacked the proposals in my former work. In the beginning, it was a little awkward(okuet), but I learned to don't take it personally, and after I found like a good idea because in this way, always when I wanted to propose something, I prepared myself better to respond to any question, and it made me have a stronger aproach
 
 ## 8. What type of work environment do you prefer?
-I prefer an environment of fellowship, where if someone has more knowledge of something, he or she shares it with the community, with the goal that all the team can improve and give a better service to the customer. When I know something that could be of help to someone, I'm really glad to share it, I'm not searching to be the first if this means stopping the growth of others.
+I prefer an environment of fellowship, where if someone has more knowledge of something, they share it with the community, with the goal that all the team can improve and give a better service to the customer. So when I know something that could help someone, I'm really glad to share it. I'm not searching to be the first if this means stopping the growth of others.
 
 ## 9. How do you deal with pressure or stressful situations? / tell me one situation where...
- 1. When I just moved here was a little stressful, I didn't speak too much English and less Hungarian. The first time I had to make a lot of bureaucratic. So I first collected all the things in a list, and I put all requirements. While I tried to make a support network, I knew some Chilean people who had some information and advice. Meanwhile, I started to speak as much English I could to train. Now, fortunately, I'm more used to Hungary and expressing myself 
- 2. In one moment in the middle of a project, the customers said that they couldn't provide the hardware requirement of a GPU, and I had to apply a technology that I didn't know at this time, to allow real-time processing of AI models on CPU. At first, I tried to manage this by myself, and I was so stressed working all my day. But after I learned the power of communication, I explained the situation to my boss, and we set new dates together with the customer. Thanks to my workmates' advice, I found the necessary technologies, which saved me a lot of work. Finally, I could fulfill all project's goals and with a good customer feedback
+ 1. When I just moved here was a little stressful, I didn't speak too much English and less Hungarian. The first time I had to make a lot of bureaucratic and I felt overwhelmed. So, I breath deeply, I collected all the things in a list, I put all requirements, and I started to fulfill step by step. Meanwhile I tried to make a support network, I knew some Chilean people who had some information and advice. In the same time, I started to speak as much English I could for improve. Now, fortunately, I'm more used to Hungary and expressing myself 
+ 2. In one moment in the middle video monitoring project of a factory with AI, the customers said that they couldn't provide the hardware requirement of a GPU, and I had to apply a technology that I didn't know at this time, to allow real-time processing of AI models on CPU. At first, I tried to manage this by myself, and I was so stressed working all my day. But after I learned the power of communication, I explained the situation to my boss, and we set new dates together with the customer. Thanks to my workmates' advice, I found the necessary technologies, which saved me a lot of work. Finally, I could fulfill all project's goals and with a good customer feedback
 
 ## 10. Which is your most significant accomplishment?
-I think that be here, I never was good at English, and I really love my family, but I left my comfort zone, and I came here for at least three years. And of course, for won this scholarship I had to make a lot of efforts 
+I think it's being here. I never was good at English, and I really loved my family, but I left my comfort zone and came here for at least three years. That meant several achievements in the middle. For example, getting good grades, winning a scholarship, saving for extra expenses, doing a lot of bureaucracy. In short, it was a long job
+
+## 19. Where Do You See Yourself in Five Years?
+Independent of where I'm or where I'm working, I look myself contributing to open-source projects to improve the quality of life of the people. It could be in projects directly related to my fields like OpenCV, OpenAI, or OpenVino (okay, they are colossus, but I'm trying to aim away) or could be in other kinds of projects like Aurora, which one I'm participating in now, which seeks to facilitate horizontal forms of organization. But in any case, I look my self with a lot more knowledge 
 
 ## 11. Do you prefer working independently or on a team?
 Although working alone can be more agile, I like to work in a team, since much greater things can be done and you can learn from your colleagues
 
 ## 12. What did you do in the last year to improve your knowledge?
-I'm constantly searching for new information and trying to be on a date with the advances. But in parallel to the general information, I was taking courses and tried to make my own projects. This year I meanly focused on improve my problem solving skills and incorporating essential things like Git and the handling of ubuntu 
+I'm constantly searching for new information and trying to be on a date with the advances. But in parallel to the general information, I was taking courses and tried to make my own projects. This year I meanly focused on improve my problem solving skills and incorporating essential things like Git and the handling of ubuntu. I'm really glad to change from windows to ubuntu, I can have more handle of what is going on on my computer, and I have a too beautiful terminal, using the Alacritty emulator and avoiding some of their limitation with Tmux, for split the terminal 
 
 ## 13. What are your salary expectations?
 I'm not here just for money, but a good salary would give me the opportunity of a better life and feel more comfortable. I would like at least 120 - 150k 
@@ -57,7 +60,7 @@ I'm not here just for money, but a good salary would give me the opportunity of 
 Because I came to study a master in computer science. At the first, I had the opportunity of continuing working beside my studies, but I didn't want to take responsibilities without knowing if I could fulfill them and at this moment we had a gap of 6 hours, which made it harder. The first semester I spent a lot of time getting used to Hungary and making lines in governmental offices. But now I'm more confident and I'm ready to retake my work hours. 
 
 ## 15. Can You Explain Why You Changed Career Paths?
-One of my life goals is to improve the quality of life of the people or support something to the humanity knowledge, and I think that computer science is a good and funny way to reach it
+One of my life goals is to improve the quality of life of the people or support something to the human knowledge, and I think that computer science is a good and funny way to reach it
 
 ## 16. What Are You Looking for in a New Position?
 One site where I can improve myself, with challenges and an environment that allows growth. Especially in the computer science skills
@@ -66,10 +69,7 @@ One site where I can improve myself, with challenges and an environment that all
 Someone motivated and engaged with their work. I want to think that they find me funny too. I try to make more bearable moments, with a good sense of humor and good treatment of people. I like to remember that I'm talking with persons with feelings and an inside world. In this way, I can be more empathic 
 
 ## 18. What Motivates You?
-Try to give others the opportunities that I had. If it wasn't for the support of my family and friends, I don't know if I would have come this far, and I'm aware that this is not common. For what motivates me to get to do something that improves people's lives
-
-## 19. Where Do You See Yourself in Five Years?
-Independent of where I'm or where I'm working, I look myself contributing to open-source projects to improve the quality of life of the people. 
+Leave a better world. It may sound cliché, but I really admire those people who, with their knowledge, manage to improve people's lives. I mean, we currently enjoy a lot of convenience because of them. I want to be a part of it.
 
 ## 20. How Do You Plan to Achieve Your Career Goals?
 I will prepare myself to take advantage of the opportunities that life gives. And I will knock on all doors that I can to search for the opportunity to learn more and demonstrate what I can do 
@@ -86,23 +86,45 @@ Be able to apply a technology that I didn't know in a short time. It was a chall
 
 ## 25. What Makes You Unique?
 
+## Questions
+* how big would the team be?
+* what would be the main objetives of my role?
+* is the building the one next to the ELTE faculty? 
+* I see that Ericsson uses some of Java ¿The company manages the Log4j problem? It's a library of Java to get the registers of the determined transaction in real-time, but have a security gap, where you can send codes to be run
+
 # Technical questions 
 
+## Ericsson 
+* Swedish multinational company dedicated to offering telecommunications equipment and solutions, mainly in the fields of telephony, mobile telephony, multimedia communications, and the Internet. With the 40 percent of the world’s mobile traffic.
+* In Chile, and well, in the world, it is a very famous company for its inventions. I still remember when Ericsson worked with Sony to create phones, my first mobil phone was a Sony Ericsson k710, and I remember how impressive it was when Ericsson invented bluetooth, being able to send information from meters away, totally impressive
+
+## User Stories
+Stories use non-technical language to provide context for the development team and their efforts. In agile tools like Scrum, after reading a user story, the team knows why they're building what they're building and what value it creates. They are also created for the client, who does not have to know anything about software, but must understand what value it provides
+
+## Scrum
+It's an agile method used for developing a new  product, in which the team are allowed to organize itself and make changes as quickly they are needed. It also involves having middle-time goals to reach in a sprint which is a period of time between 1 or 4 weeks and composed for shorter goals to fulfill the main one. Usually are made short meetings every day to see the progress.
+
 ## IP Multimedia Subsystem (IMS)
+It is a set of specifications that describe the architecture of next generation networks, allowing the traffic of voice, data, video, services and images together through infrastructure based on packet routing through IP addresses. It only requires that the equipment use the SIP session protocol
+
+## SIP session protocol
+is a standard protocol for the initiation, modification, and finishing of interactive user sessions involving multimedia elements, similar to HTTP for the web pages, which actually shares many features with other protocols
 
 ## VoLTE (Voice over LTE) 
+it is an IP Multimedia Subsystem (IMS) of the network, with specific profiles for control and multimedia plans that are delivered as data flows within the LTE data carrier.
 
 ## VoWi-Fi (Voice over Wi-Fi)
+It is a technology that allows you to make calls with your phone number without the need for network coverage, since it allows you to make calls through the WiFi connection
 
 ## The Telecom Server Platform (TSP) 
+It's a line of import-substituting universal communication frameworks. Is the Ericsson platform for high availability, real-time network servers, and controllers
 
 ## Session Border Gateway 
+A session border controller is a network element deployed to protect SIP based voice over Internet Protocol networks.
 
-## Multimedia Telephony Application Server
+## Multimedia Telephony Application Server (MTAS)
+is a carrier-class application server for voice and multimedia, providing good cost-efficient services for mobiles and fixed networks. It stands out for its great efficiency 
 
-## IMS Network System
-
-## The Development Services Organization 
 
 ## What are your preferred programming languages and why?
 Even if I like languages like C because I can know what is happening every time and it's so fast. I prefer python because it's a simple language, with libraries so useful for computer science, or whatever you want to do and have a strong community 
